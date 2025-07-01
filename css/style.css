@@ -1,0 +1,32 @@
+/* Global font and layout */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+a.nav-link:hover {
+  color: #ffc107; /* Change nav link color on hover */
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.project-image {
+  max-width: 100%;
+  max-height: 250px; /* Adjust height as needed */
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project-image-container {
+  padding-right: 1.5rem;
+}
